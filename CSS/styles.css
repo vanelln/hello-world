@@ -1,0 +1,140 @@
+/* Color Palette
+#24334B - navy
+#ED3E5C - hot pink
+#FFFFFF - white
+#FF8499 - light pink
+#FFADBB - baby pink
+-----------*/
+
+/* Font Names
+font-family: 'Crimson Text', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Permanent Marker', cursive;
+-----------*/
+
+/* Global Styles */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h3 {
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 17px;
+    margin: 0px
+}
+
+p{
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+ul {
+    line-height: 160%;
+}
+
+.content, main {
+    width: 50%;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 900px;
+}
+
+section {
+    padding: 10px 0px;
+}
+
+main {
+    padding: 40px 0px;
+}
+
+hr {
+    border: 2px #24334B solid;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+/* Header */
+header {
+    background: #ED3E5C;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-bottom: #24334B 20px solid;
+}
+
+#tagline {
+    font-size: 150%;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+/* Footer */
+footer {
+    background: #24334B;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Resume Content */
+.work, .education {
+    color: #24334B;
+}
+
+a {
+    color: #FFADBB;
+}
+
+a:hover {
+    color: #FF8499;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    text-align: right;
+}
+
+.job-description {
+    padding-top: 0px;
+}
+
+.col-wide {
+    float: left;
+}
+.col-narrow {
+    text-align: right;
+}
